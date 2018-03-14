@@ -1,0 +1,39 @@
+{
+  "name": "Progressive Web App",
+  "short_name": "PWA",
+  "start_url": "/pwa/notificacionesNP/?utm_source=homescreen",
+  "background-color": "lightblue",
+  "theme_color": "lightgreen",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "dir": "ltr",
+  "lang": "es-ES",
+  "description": "Una apliación web progresiva para el curso de AWP",
+  "scope": "/",
+  "serviceworker": {
+    "src": "scripts/sw.js",
+    "scope": "/"
+  },
+  "related_applications": [{
+    "platform": "play",
+    "url": "url/a/la/app",
+    "id": "es.carherco.pwa"
+  }],
+  "prefer_related_applications": true,
+  "screenshots": [
+    {
+      "src": ""
+    },
+    {
+      "src": ""
+    }
+  ]
+
+}

@@ -1,0 +1,41 @@
+{
+  "fases": [
+    {
+      "nombre": "Liguilla Previa",
+      "tipo": "LiguillaGrupos",
+      "metodo_participacion": "inscripcion",
+      "numequipos": 160,
+      "tipo_resolucion": "clasificatoria",
+      "configuracion": {
+        "numgrupos": 8,
+        "numequpiposXgrupo": 20,
+        "fases_siguientes": [
+          {"fase": "copa oro", "numequipos": 2},
+          {"fase": "copa plata", "numequipos": 1},
+          {"fase": "copa bronce", "numequipos": 2}
+        ]
+      }
+    },
+    {
+      "nombre": "copa oro",
+      "tipo": "Eliminatorias",
+      "metodo_participacion": "clasificacion",
+      "numequipos": 16,
+      "tipo_resolucion": "final"
+    },
+    {
+      "nombre": "copa plata",
+      "tipo": "Eliminatorias",
+      "metodo_participacion": "clasificacion",
+      "numequipos": 16,
+      "tipo_resolucion": "final"
+    },
+    {
+      "nombre": "copa bronce",
+      "tipo": "Eliminatorias",
+      "metodo_participacion": "clasificacion",
+      "numequipos": 64,
+      "tipo_resolucion": "final"
+    }
+  ]
+}
